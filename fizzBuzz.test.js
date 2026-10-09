@@ -31,3 +31,14 @@ describe("division by 5 and by 3", () => {
     assert.equal(fizzBuzz(90), "fizzbuzz");
   });
 });
+describe("returning the number as a string", () => {
+  test('1 returns "1"', () => {
+    assert.equal(fizzBuzz(1), "1");
+  });
+  test('4 returns "4"', () => {
+    assert.equal(fizzBuzz(4), "4");
+  });
+  test('91 returns "91"', () => {
+    assert.equal(fizzBuzz(91), "91");
+  });
+});
