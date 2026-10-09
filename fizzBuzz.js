@@ -1,13 +1,10 @@
 function fizzBuzz(num) {
-  if (num % 15 === 0) {
-    return "fizzbuzz";
-  } else if (num % 5 === 0) {
-    return "buzz";
-  } else if (num % 3 === 0) {
-    return "fizz";
-  }
+  let result = "";
 
-  return num.toString();
+  if (num % 3 === 0) result += "fizz";
+  if (num % 5 === 0) result += "buzz";
+
+  return result || num.toString();
 }
 
 export { fizzBuzz };
