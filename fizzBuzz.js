@@ -6,7 +6,7 @@ function fizzBuzz(num) {
     return "buzz";
   }
 
-  return "fizz";
+  return num.toString;
 }
 
 export { fizzBuzz };
