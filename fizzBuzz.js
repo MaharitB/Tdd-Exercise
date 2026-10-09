@@ -1,3 +1,5 @@
-function fizzBuzz() {}
+function fizzBuzz() {
+  return "fizz";
+}
 
 export { fizzBuzz };
